@@ -14,7 +14,6 @@ Se asume que todo el entorno de desarrollo ya está configurado (Dependencias).
 g++ main.cpp grafico.cpp -o programa.exe $(pkg-config --cflags --libs gtk+-3.0 cairo)
 
 ### Linux/macOS:
-```bash
 g++ main.cpp grafico.cpp -o programa $(pkg-config --cflags --libs gtk+-3.0 cairo)
 
 
